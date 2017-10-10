@@ -1,3 +1,5 @@
+
+/* header css */
 header {
   font-family: Verdana;
   font-size: 14px;
@@ -7,13 +9,18 @@ header {
   align-items: center;
   border-bottom: 1px solid black;
   height: 80px;
-  padding: 0px 30px;
 }
 
 .logo {
   display: flex;
   color: MediumAquamarine;
   align-items: center;
+  flex-grow: 1;
+  padding-left: 30px
+}
+
+nav{
+  padding-right: 40px;
 }
 
 .logo span {
@@ -23,4 +30,33 @@ header {
 nav span a {
   padding: 20px 10px;
   color: black;
+}
+
+div {
+  border: 1px solid black;
+}
+
+/* Main Body CSS*/
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.column {
+  display: inline-flex;
+  flex-direction: column;
+  margin-right: 32px;
+  margin-top: 32px;
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
 }
