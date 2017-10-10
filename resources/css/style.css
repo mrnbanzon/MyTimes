@@ -49,6 +49,9 @@ nav span a {
 }
 
 .column.large {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   width: 630px;
 }
 
