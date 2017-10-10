@@ -47,6 +47,7 @@ div {
   flex-direction: column;
   margin-right: 32px;
   margin-top: 32px;
+  font-family: Georgia;
 }
 
 .column.large {
@@ -59,4 +60,19 @@ div {
 
 .column.small {
   width: 240px;
+}
+
+.headline {
+  display: flex;
+  font-weight: bold;
+  font-size: 30px;
+  justify-content: center;
+  text-align: center;
+  height: 300px;
+}
+
+
+.headline.main-story {
+  font-size: 40px;
+  text-align: left;
 }
