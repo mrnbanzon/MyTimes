@@ -32,10 +32,6 @@ nav span a {
   color: black;
 }
 
-div {
-  border: 1px solid black;
-}
-
 /* Main Body CSS*/
 .main {
   display: flex;
@@ -48,6 +44,8 @@ div {
   margin-right: 32px;
   margin-top: 32px;
   font-family: Georgia;
+  font-size: 17px;
+  color: black;
 }
 
 .column.large {
@@ -66,13 +64,27 @@ div {
   display: flex;
   font-weight: bold;
   font-size: 30px;
+  color: white;
   justify-content: center;
   text-align: center;
   height: 300px;
 }
 
-
 .headline.main-story {
   font-size: 40px;
   text-align: left;
+  width: 630px;
+  background-image: url("../images/img-story-main.png");
+}
+
+.headline.earth-story {
+  background-image: url("../images/img-story-2.png");
+}
+
+.headline.camera-story {
+  background-image: url("../images/img-story-3.png");
+}
+
+.headline.cat-story {
+  background-image: url("../images/img-story-1.png");
 }
